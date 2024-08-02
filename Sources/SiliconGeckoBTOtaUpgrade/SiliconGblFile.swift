@@ -14,7 +14,7 @@ public class SiliconGblFile {
         self.data = data
     }
     
-    init(url: URL) throws {
+    public init(url: URL) throws {
         self.data = try Data(contentsOf: url)
     }
     
